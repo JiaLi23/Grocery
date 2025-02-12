@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['apple', 'banana', 'bell-pepper', 'carrot', 'eggs', 'instant-noodle', 'lemon', 'milk', 'toilet-paper', 'tuna-can', 'yanyan-cracker', 'yogurt']
+
+roboflow:
+  workspace: wave-zpavv
+  project: it110-grocery
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wave-zpavv/it110-grocery/dataset/1
